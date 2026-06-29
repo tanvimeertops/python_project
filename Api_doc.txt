@@ -1,0 +1,34 @@
+Functional testing
+Security Testing
+Performance Testing
+
+post : create a new resource
+get : to retrieve data
+delete :to delete a particular record
+Put: to update resource 
+
+
+200 OK
+The request succeeded. 
+201 Created
+The server created a new resource.
+307 Temporary Redirect
+The server redirects to another URI temporarily.
+400 Bad Request
+The server can’t process your request.
+401 Unauthorized
+The server rejected your request due to missing or 
+invalid authentication.
+404 Not Found
+The server can’t find the requested resource.
+405 Method Not Allowed
+The server recognizes the request method but the resource
+doesn’t support it. 
+500 Internal Server Error
+Generic error.
+502 Bad Gateway
+The gateway or proxy server received an invalid response 
+while trying to complete the request.
+503 Service Unavailable
+The server can’t handle the request due to temporary 
+overload or maintenance.

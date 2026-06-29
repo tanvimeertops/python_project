@@ -1,0 +1,87 @@
+Step 1-  Master Production Prompt
+Act as a senior full stack engineer.
+Follow clean architecture.
+Write scalable, maintainable, enterprise-level production code.
+Do not skip validation, centralized error handling, and security best practices.
+Do not generate extra markdown files.
+Build a production-ready MERN ecommerce website with:
+- JWT authentication (User/Admin)
+- Role-based access
+- Product CRUD
+- Cart & Checkout
+- Standard API response format
+- Health check route
+- Logging system/ winston
+- Rate limiting
+- Helmet security
+- Input validation
+- Modern React + Tailwind UI
+- Proper folder structure
+- Environment variable support
+- Jest test cases
+- Deployment-ready configuration
+Start with backend folder structure only. Dont write code
+__________________________________________________________________________________
+Step 2 — DB + Structure
+Act as a senior full stack engineer
+Implement MongoDB connection with environment variables, proper error handling, and clean config structure.
+Add health check route at /api/health.
+__________________________________________________________________________________
+step 3- Authentication + Security
+Implement authentication system with:
+- Password hashing
+- JWT
+- Role-based middleware
+- Input validation
+- Proper status codes
+- Centralized error handling
+__________________________________________________________________________________
+Step 4 — Security Hardening
+Harden backend for production:
+- Add Helmet
+- Add rate limiting
+- Secure CORS
+- Prevent NoSQL injection
+________________________________________________________________________________
+step 5- Product + Cart + Order
+Create Product, Cart and Order modules using clean architecture.
+Include validation layer and service layer.
+Use standard JSON response structure.
+______________________________________________________________________________
+step 6 -Modern Frontend /UI
+Build a modern SaaS-style frontend using React + Vite + Tailwind.
+Include:
+- Login/Register
+- Product listing
+- Cart page
+- Checkout page
+- Admin dashboard
+- Protected routes
+- Loading states
+- Error handling UI
+- Responsive design
+- Dark mode
+_______________________________________________________________________________
+Step 7 — Backend Tests
+Generate production-level Jest test cases for:
+- Authentication
+- Product CRUD
+- Order flow
+Cover edge cases and validation failures.
+______________________________________________________________________________
+step 8 - Debugging + Code Review
+Review the backend codebase.
+Identify:
+- Security gaps
+- Performance issues
+- Edge case failures
+- Refactoring opportunities
+Fix and optimize.
+_____________________________________________________________________________
+Step 9 — Production Config / Deployment Ready
+Prepare project for deployment:
+- Add production start script
+- Separate dev and prod configs
+- Secure environment usage
+- Optimize build
+________________________________________________________________________________
